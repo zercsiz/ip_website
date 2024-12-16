@@ -1,0 +1,66 @@
+<section class="pricing-section container justify-content-center" id="pricing">
+    <h2 class="pricing-title">Pricing</h2>
+    <div class="d-flex flex-row justify-content-center" style="flex-wrap: wrap;">
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Starter Plan <span class="text-secondary">(Free)</span></h3>
+                </div>
+                <div class="card-body">
+                    <h1>$0<span style="color:grey; font-weight: lighter">/m</span></h1>
+                    <ul class="ps-3">
+                        <li class="m-0"><p class="card-description"><strong>Access to free workshops</strong> and community webinars</p></li>
+                        <li><p class="card-description"><strong>Limited library </strong>of recorded courses</p></li>
+                        <li><p class="card-description">Participation in<strong> community forums and discussions</strong></p></li>
+                        <li><p class="card-description">Entry to <strong>monthly contests </strong>with exciting prizes</p></li>
+                    </ul>  
+                </div>
+                <div class="card-footer">
+                    <a class="plan-button btn btn-outline-primary btn-lg" href="{% url 'home:sign_up' %}">Sign up for free</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Pro <span class="text-secondary">(Most Popular)</span></h3>
+                </div>
+                <div class="card-body">
+                    <h1>$49<span style="color:grey; font-weight: lighter">/m</span></h1>
+                    <ul class="ps-3">
+                        <li><p class="card-description">Everything in the Starter Plan</p></li>
+                        <li><p class="card-description"><strong>Full library access:</strong> Recorded courses, live workshops, and webinars</p></li>
+                        <li><p class="card-description">Participation in <strong>hackathons and coding contests</strong></p></li>
+                        <li><p class="card-description"><strong>1-on-1 mentorship sessions </strong>with industry experts (2 sessions/month)</p></li>
+                        <li><p class="card-description"><strong>Discounts </strong>on certification programs and events</p></li>
+                    </ul>                 
+                </div>
+                <div class="card-footer">
+                    <a class="plan-button btn btn-primary btn-lg" href="{% url 'home:sign_up' %}">Get started</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card">
+                <div class="card-header" style="background-color: rgb(19, 141, 241);">
+                    <h3 class="text-light">Elite</h3>
+                </div>
+                <div class="card-body">
+                    <h1>$99<span style="color:grey; font-weight: lighter">/m</span></h1>
+                    <ul class="ps-3">
+                        <li><p class="card-description">Everything in the Pro Plan</p></li>
+                        <li><p class="card-description">Unlimited access to <strong>premium courses</strong>, advanced workshops, and <strong>masterclasses</strong></p></li>
+                        <li><p class="card-description"><strong>Weekly mentorship sessions</strong> with industry leaders</p></li>
+                        <li><p class="card-description"><strong>Exclusive invites </strong>to conferences and summits</p></li>
+                        <li><p class="card-description"><strong>Priority access </strong>to contests and premium resources</p></li>
+                        <li><p class="card-description">Customized career guidance and <strong>job placement support</strong></p></li>
+                    </ul>   
+                </div>
+                <div class="card-footer" style="background-color: rgb(19, 141, 241);">
+                    <a class="plan-button btn btn-outline-light btn-lg" href="{% url 'home:sign_up' %}">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

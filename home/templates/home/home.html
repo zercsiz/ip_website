@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% load static %}
+
+
+{% block 'title' %}
+    <title>vCamp - HomePage</title>
+{% endblock %}
+
+{% block 'content' %}
+    <div class="background-container">
+        <img class="img-fluid home-bg-image" src="{% static 'image/bg1.png' %}" alt="">
+    </div>
+    
+
+    
+    {% include 'home/inc/hero.html' %}
+    {% include 'home/inc/courses.html' %}
+    {% include 'home/inc/testimonial.html' %}
+    {% include 'home/inc/pricing.html' %}
+    {% include 'home/inc/contact.html' %}
+{% endblock %}
