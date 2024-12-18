@@ -49,50 +49,35 @@ html body {
   z-index: 2 !important;
   margin-top: 4rem;
   height: 500px;
-  background-image: url("https://picsum.photos/id/467/2880/2000/?grayscale&blur=10");
+  background-image: url("../image/car1.jpeg");
+  background-position: 50% 20%;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
-.slogan{
-  font-weight: 600;
-  color: black;
+
+.hero .d-flex{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 170px;
 }
 
-/* courses */
-.courses-container{
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+.slogan1{
+  font-weight: 600;
+
 }
-.course-img{
-  position: relative;
+.slogan2{
+  font-weight: 400;
 }
-.course-text{
-  position: absolute; 
-  top: 20px;
-}
-.course-card{
-  border-radius: 0;
-  padding: 0;
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
-  border: none;
-}
-.course-card .card-body{
-  padding: 0;
-}
+
+
+
+
 
 /*testimonials*/
 #testimonials {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(51, 51, 51);
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.testimonial-text {
-  font-weight: bold;
-  color: white;
 }
 
 .testimonial-image {
@@ -101,15 +86,19 @@ html body {
   margin: 20px;
 }
 
-
-/* contact dev */
-.dev-section{
-  background-color: rgb(51, 51, 51) !important;
-  margin-top: 2rem;
-  height: 100vh;
+/* services */
+.services-section{
+  background-color: rgba(255, 255, 255, 0.849);
 }
-.dev-img{
-  border-radius: 100%;
+.service-icon{
+  font-size: 46pt;
+}
+
+
+/* destinations */
+.destinations-container{
+  margin-top: 5rem;
+  padding-top: 4rem;
 }
 
 
@@ -146,18 +135,47 @@ html body {
 
 /* contact */
 
-.contact-container{
+.footer-container{
   background-color: rgb(80, 80, 80) !important;
   margin-top: auto;
   object-position: bottom;
 }
-.contact-container a{
+.footer-container a{
   text-decoration: none;
   color: white;
 }
-.contact-container .container{
+.footer-container .container{
   padding-top: 4rem;
   padding-bottom: 4rem;
 
   color: white;
+}
+
+.contact-icon{
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-input-invalid{
+  border-color: rgb(202, 0, 0);
+}
+.contact-message{
+  resize: none;
+  height: 200px;
+}
+
+/* cars */
+.cart{
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+}
+.cart .card-header{
+  background-color: white;
+  border: none;
+}
+.cart .card-footer{
+  background-color: white;
+  border: none;
 }

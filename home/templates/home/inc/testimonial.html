@@ -1,22 +1,26 @@
+{% load static %}
 <section id="testimonials">
   <div class="container">
     <h3 class="text-start text-light mb-5">Testimonials</h3>
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="2000" data-pause="hover">
       <div class="carousel-inner container justify-content-center">
         <div class="carousel-item active">
-            <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias at be</h2>
-            <img class="testimonial-image" src="https://picsum.photos/300/300" alt="">
-            <em>lorem ipsum</em>
+            <h3 class="text-light"><strong>"Seamless and Reliable Service!"</strong></h3>
+            <p class="text-light">"CyRent made our trip to North Cyprus absolutely stress-free. The booking process was simple, and the car was in excellent condition. We drove from Kyrenia to the Karpaz Peninsula with no issues at all. Highly recommended!"</p>
+            <img class="testimonial-image" src="{% static 'image/sarah.jpg' %}" alt="">
+            <em class="text-light">– Sarah Bennett, United Kingdom</em>
         </div>
         <div class="carousel-item">
-            <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias at be</h2>
-            <img class="testimonial-image" src="https://picsum.photos/300/300" alt="">
-            <em>lorem ipsum</em>
+            <h3 class="text-light"><strong>"Perfect for Family Vacations!"</strong></h3>
+            <p class="text-light">"We rented an SUV for our family trip, and it was a great experience. CyRent’s team was super helpful, and they even provided a child seat for free. The car was spacious and comfortable, perfect for exploring North Cyprus with kids."</p>
+            <img class="testimonial-image" src="{% static 'image/ahmed.jpg' %}" alt="">
+            <em class="text-light">– Ahmed El-Sayed, Egypt</em>
         </div>
         <div class="carousel-item">
-            <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias at be</h2>
-            <img class="testimonial-image" src="https://picsum.photos/300/300" alt="">
-            <em>lorem ipsum</em>
+            <h3 class="text-light"><strong>"Affordable and Convenient!"</strong></h3>
+            <p class="text-light">"CyRent truly exceeded my expectations. The prices were better than other car rental services, and the pick-up and drop-off process was hassle-free. Driving along the scenic coastal roads of North Cyprus was unforgettable, thanks to CyRent!"</p>
+            <img class="testimonial-image" src="{% static 'image/elena.jpg' %}" alt="">
+            <em class="text-light">– Elena Rossi, Italy</em>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

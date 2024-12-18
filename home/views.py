@@ -7,9 +7,9 @@ class HomeView(View):
         return render(request, 'home/home.html')
 
 
-class DevView(View):
+class DestinationsView(View):
     def get(self, request):
-        return render(request, 'home/dev.html')
+        return render(request, 'home/destinations.html')
     
 class SignUpView(View):
     def get(self, request):
@@ -19,3 +19,13 @@ class SignUpView(View):
 class LoginView(View):
     def get(self, request):
         return render(request, 'home/login.html')
+    
+
+class ContactView(View):
+    def get(self, request):
+        return render(request, 'home/contact.html')
+    
+    
+class CarsView(View):
+    def get(self, request):
+        return render(request, 'home/cars.html')
