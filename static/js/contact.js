@@ -1,4 +1,3 @@
-//contact form validation
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     const phoneInput = document.getElementById('inputTel');
     const phoneErrorMessage = document.getElementById('tel-error-message');
